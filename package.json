@@ -1,0 +1,27 @@
+{
+  "name": "photography",
+  "version": "1.0.0",
+  "description": "Photography portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "rm -rf ./dist && npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrentonCozby/photography.git"
+  },
+  "keywords": [
+    "headshots"
+  ],
+  "author": "Brenton Cozby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrentonCozby/photography/issues"
+  },
+  "homepage": "https://github.com/BrentonCozby/photography#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
